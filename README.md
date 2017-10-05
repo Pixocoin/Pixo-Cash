@@ -36,7 +36,7 @@ cd src
 
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2014 Bitcoin Core Developers.  Copyright © 2017 Pixocoin.org
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2014 Bitcoin Core Developers, Copyright © 2017 Pixocoin.org, Copyright © 2017 Pixocoin Developers.
 
 ## Acknowledgments
 
