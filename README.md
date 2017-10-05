@@ -4,7 +4,7 @@ www.pixocoin.org
 [![Build Status](https://travis-ci.org/RazorLove/pixocoin.png?branch=master)](https://travis-ci.org/RazorLove/pixocoin)
 
 
-A decentralized digital asset.  Peer-to-peer network built on cryptography powered by the Blockchain technology.  A derivative of the bitcoin/litecoin.
+A decentralized digital asset.  Peer-to-peer network built on cryptography powered by the Blockchain technology.  A derivative of bitcoin/litecoin.
 
 ## Getting Started
 
