@@ -6,9 +6,7 @@ www.pixocoin.org
 
 A decentralized digital asset.  Peer-to-peer network built on cryptography powered by the Blockchain technology.  A derivative of bitcoin/litecoin.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+## Getting Started 
 
 ### Prerequisites
 
