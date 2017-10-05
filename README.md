@@ -40,7 +40,7 @@ cd src
 
 ## License
 
-This project is licensed under the MIT License.  Copyright (c) 2009-2014 Bitcoin Core Developers
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2014 Bitcoin Core Developers
 
 ## Acknowledgments
 
