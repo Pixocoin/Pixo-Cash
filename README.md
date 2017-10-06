@@ -4,7 +4,7 @@ www.pixocoin.org
 A decentralized digital asset.  Peer-to-peer network built on cryptography powered by the Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
 ## Development
-
+### Build 1.0.0.0
 Pixocoin is currently under development.
 
 ## Getting Started 
