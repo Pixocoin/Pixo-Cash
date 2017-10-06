@@ -2,6 +2,7 @@
 www.pixocoin.org
 
 A decentralized anonymous digital asset.  Peer-to-peer network built on cryptography powered by the Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
+- 81,000,000 supply
 
 ## Development
 ### Build 1.0.0.0 Beta
