@@ -5,6 +5,7 @@ Founded in 2017 Pixocoin is a decentralized anonymous digital asset built on cry
 - 81,000,000 supply
 - Currency = PIXO
 - Block Reward: 1.00
+- Block Time: 120 seconds
 
 ## Development
 ### Build 1.0.0.0 Beta
