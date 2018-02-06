@@ -52,4 +52,6 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 ## Donations
 
 * BTC ```1MdLg5jSQ94GaEHNxoYxfJdeSDuKdn4g7T```
+* ETH ```0x29942d09e21fd14e7a68feff4d07fa7000342eda```
+
 
