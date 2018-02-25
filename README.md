@@ -50,6 +50,7 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 * Hat tip to anyone who's code was used!
 * All the people that helped with my coin and all the parents to my coin!
 * Inspiration - Bitcoin, Satoshi Nakamoto, Charlie Lee, and all others!
+* My parents, my sister and brother, and my wife!
 
 ## Donations
 
