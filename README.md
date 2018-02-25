@@ -48,7 +48,7 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* Inspiration - Bitcoin and Satoshi Nakamoto to let me know who I am!
+* Inspiration - Bitcoin, Satoshi Nakamoto, Charlie lee, and all others!
 
 ## Donations
 
