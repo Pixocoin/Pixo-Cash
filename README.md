@@ -47,8 +47,9 @@ make -f makefile.unix USE_UPNP=-
 This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 Pixocoin.org, Copyright © 2017-2018 Pixocoin Developers, PIXO™.
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration - Bitcoin, Satoshi Nakamoto, Charlie lee, and all others!
+* Hat tip to anyone who's code was used!
+* All the people that helped with my coin and all the parents to my coins!
+* Inspiration - Bitcoin, Satoshi Nakamoto, Charlie Lee, and all others!
 
 ## Donations
 
