@@ -1,4 +1,4 @@
-# PixoCoin (PIXO)
+# Pixocoin (PIXO)
 www.pixocoin.org
 
 Founded in 2017 Pixocoin is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
