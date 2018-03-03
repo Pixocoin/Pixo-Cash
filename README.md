@@ -32,12 +32,12 @@ sudo apt-get install libboost*
 ### Installing
 ```
 git clone https://github.com/Pixocoin/pixocoin.git
-cd pixocoin
-cd src
 ```
 ## Deployment
 
 ```
+cd pixocoin
+cd src
 make -f makefile.unix USE_UPNP=-
 ./pixocoind
 ```
