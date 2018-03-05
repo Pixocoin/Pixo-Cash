@@ -42,6 +42,7 @@ make -f makefile.unix USE_UPNP=-
 ./pixocoind
 cd ..
 qmake pixocoin-qt.pro
+make
 ```
 
 ## License
