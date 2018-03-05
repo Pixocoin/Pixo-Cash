@@ -9,7 +9,7 @@ Founded in 2017 Pixocoin is a decentralized anonymous digital asset built on cry
 - Scrypt Algorithm
 
 ## Development
-### Build 0.0.0-Beta
+### Build 0.0.0-beta
 Pixocoin is currently under development.
 
 ## Getting Started 
