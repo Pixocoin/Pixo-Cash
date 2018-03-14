@@ -59,6 +59,6 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 
 * BTC ```1MdLg5jSQ94GaEHNxoYxfJdeSDuKdn4g7T```
 * ETH ```0x29942d09e21fd14e7a68feff4d07fa7000342eda```
-* PIXO ```G46d2gMqGwdhnFs6vG7KNp6UVeJeSG5tzm```
+* PIXOC ```G46d2gMqGwdhnFs6vG7KNp6UVeJeSG5tzm```
 * LTC ```M8mQPsVZD7KVR3SFLXHGaAqkiA9pdptvsu```
 
