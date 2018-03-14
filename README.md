@@ -31,7 +31,7 @@ sudo apt-get install libboost*
 
 ### Installing
 ```
-git clone https://github.com/Pixocoin/pixocoin.git
+git clone https://github.com/Pixocoin/Pixo-Classic.git
 ```
 ## Deployment
 
