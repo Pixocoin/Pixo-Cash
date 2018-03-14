@@ -1,7 +1,7 @@
 # Pixo Classic (PIXOC)
 www.pixoclassic.org
 
-Founded in 2017 Pixo™ is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
+Pixo™ is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 - 81,000,000 supply
 - Currency = PIXOC
 - Block Reward: 1.00
