@@ -1,16 +1,16 @@
-# Pixocoin (PIXO)
-www.pixocoin.org
+# Pixo Classic (PIXOC)
+www.pixoclassic.org
 
 Founded in 2017 Pixocoin is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 - 81,000,000 supply
-- Currency = PIXO
+- Currency = PIXOC
 - Block Reward: 1.00
 - Block Time: 120 seconds
 - Scrypt Algorithm
 
 ## Development
 ### Build 0.0.0-beta
-Pixocoin is currently under development.
+Pixo Classic is currently under development.
 
 ## Getting Started 
 
