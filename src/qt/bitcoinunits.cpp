@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("GEO");
-    case mBTC: return QString("mGEO");
-    case uBTC: return QString::fromUtf8("μGEO");
+    case BTC: return QString("PIXO");
+    case mBTC: return QString("mPIXO");
+    case uBTC: return QString::fromUtf8("μPIXO");
     default: return QString("???");
     }
 }
@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("PixoCoin");
-    case mBTC: return QString("milliPixoCoin (1 / 1,000)");
-    case uBTC: return QString("microPixoCoin (1 / 1,000,000)");
+    case BTC: return QString("PixoClassic");
+    case mBTC: return QString("milliPixoClassic (1 / 1,000)");
+    case uBTC: return QString("microPixoClassic (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of PixoCoin is called a "wander."
+//a single unit (.00000001) of PixoClassic is called a "wander."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
