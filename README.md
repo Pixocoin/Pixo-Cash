@@ -31,23 +31,23 @@ sudo apt-get install libboost*
 
 ### Installing
 ```
-git clone https://github.com/Pixocoin/Pixo-Classic.git
+git clone https://github.com/PixoClassic/Pixo-Classic.git
 ```
 ## Deployment
 
 ```
-cd pixocoin
+cd PixoClassic
 cd src
 make -f makefile.unix USE_UPNP=-
-./pixocoind
+./PixoClassicd
 cd ..
-qmake pixocoin-qt.pro
+qmake PixoClassic-qt.pro
 make
 ```
 
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 Pixocoin.org, Copyright © 2017-2018 Pixocoin Developers, PIXO™.
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 PixoClassic.org, Copyright © 2017-2018 PixoClassic Developers, PIXO™.
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used!

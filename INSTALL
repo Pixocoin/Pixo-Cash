@@ -1,9 +1,9 @@
-Building PixoCoin
+Building PixoClassic
 
-See doc/readme-qt.rst for instructions on building pixocoin-qt,
+See doc/readme-qt.rst for instructions on building PixoClassic-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of PixoCoin.
+implementation of PixoClassic.
 
-See doc/build-*.txt for instructions on building pixocoin,
+See doc/build-*.txt for instructions on building PixoClassic,
 the intended-for-services, no-graphical-interface, reference
-implementation of PixoCoin.
+implementation of PixoClassic.
