@@ -9,7 +9,7 @@ Pixo™ is a decentralized anonymous digital asset built on cryptography with pe
 - Scrypt Algorithm
 
 ## Development
-### Build 0.0.0-beta
+### Build 0.0.0-beta01
 Pixo Classic is currently under development.
 
 ## Getting Started 
