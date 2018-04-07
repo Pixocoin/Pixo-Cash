@@ -51,7 +51,7 @@ QString BitcoinUnits::description(int unit)
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of PixoClassic is called a "wander."
+//a single unit (.00000001) of PixoClassic is called a "XOC."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
