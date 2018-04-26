@@ -4,8 +4,8 @@ www.pixoclassic.org
 Pixo™ Classic is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 - 81,000,000 supply
 - Currency = PIXOC
-- Block Reward: 1.00
-- Block Time: 120 seconds
+- Block Reward: 3.00
+- Block Time: 360 seconds
 - Scrypt Algorithm
 
 ## Development
