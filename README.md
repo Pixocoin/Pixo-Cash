@@ -1,4 +1,4 @@
-# Pixo Classic (PIXOC)
+# Pixo Classic (PIXOC)     STAY OFF THE NETWORK PIXOC IS BEING FORKED AND ALL PEOPLE NEED TO STAY OFF THE NETWORK
 www.pixoclassic.org
 
 Pixo™ Classic is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
