@@ -833,9 +833,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         // distribution for dev
         nSubsidy = 16200000 * COIN;
     } 
-	else if (nHeight < 101) {
+	else if (nHeight < 1000) {
         // dev
-        nSubsidy = 1 * COIN;
+        nSubsidy = 0 * COIN;
     }
 
      if(nHeight > 27000000){
