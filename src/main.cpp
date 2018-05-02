@@ -835,7 +835,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     } 
 	else if (nHeight < 1000) {
         // dev confirmation/instamine prevention
-        nSubsidy = 0 * COIN;
+        nSubsidy = 0.5 * COIN;
     }
 
      if(nHeight > 27000000){
