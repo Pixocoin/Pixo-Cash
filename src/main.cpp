@@ -833,6 +833,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         // distribution for dev
         nSubsidy = 16200000 * COIN;
     } 
+	else if (nHeight < 101) {
+        // dev
+        nSubsidy = 1 * COIN;
+    }
+
      if(nHeight > 27000000){
 	// lose a coin in the block reward every 3rd of total blocks
         nSubsidy = 2 * COIN;
