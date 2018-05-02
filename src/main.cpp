@@ -837,17 +837,17 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         // dev confirmation/instamine prevention
         nSubsidy = 0.5 * COIN;
     }
-    if(nHeight > 1000){
+        if(nHeight > 1000){
 	// 1 coin blocks
-        nSubsidy = 1 * COIN;
+        nSubsidy = 3 * COIN;
      }
-     if(nHeight > 9000000){
+        if(nHeight > 9000000){
 	// gain a coin in the block reward
         nSubsidy = 2 * COIN;
      }
-     if(nHeight > 18000000){
+        if(nHeight > 18000000){
         // gain a coin in the block reward
-        nSubsidy = 3 * COIN;
+        nSubsidy = 1 * COIN;
      }
 	
     return nSubsidy + nFees;
