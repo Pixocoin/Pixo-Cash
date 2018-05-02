@@ -829,11 +829,23 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 3 * COIN;
-
+	if (nHeight == 1) {
+        // distribution
+        nSubsidy = 16200000 * COIN;
+    } 
+     if(nHeight > 27000000){
+	// lose a coin in the block reward every 3rd of total blocks
+        nSubsidy = 2 * COIN;
+     }
+     if(nHeight > 54000000){
+        // lose a coin in the block reward every 3rd of total blocks
+        nSubsidy = 1 * COIN;
+     }
+	
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 30; // PixoClassic: 30 sec
+static const int64 nTargetTimespan = 45; // PixoClassic: 30 sec
 static const int64 nTargetSpacing = 360; // PixoClassic: 6 minute blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
