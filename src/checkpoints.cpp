@@ -39,7 +39,7 @@ namespace Checkpoints
     int GetTotalBlocksEstimate()
     {
         if (fTestNet) return 0;
-        return 0;
+        // return 0;
         return mapCheckpoints.rbegin()->first;
     }
 
