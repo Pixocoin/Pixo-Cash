@@ -28,7 +28,7 @@ sudo apt-get install libdb4.8++-dev
 sudo apt-get install libboost-all-dev
 sudo apt-get install libssl-dev libdb-dev libdb++-dev libqrencode-dev qt4-qmake libqtgui4 libqt4-dev git
 sudo apt-get install build-essential libminiupnpc-dev 
-sudo apt-get update
+
 
 ```
 
