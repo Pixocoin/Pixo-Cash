@@ -857,7 +857,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 }
 
 static const int64 nTargetTimespan = 0.00486111111111111111111111111111 * 24 * 60 * 60; // PixoClassic: 420 sec;
-static const int64 nTargetSpacing = 360; // PixoClassic: 6 minute blocks
+static const int64 nTargetSpacing = 6 * 60; // PixoClassic: 6 minute blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Thanks: Balthazar for suggesting the following fix
