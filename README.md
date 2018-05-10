@@ -48,18 +48,17 @@ make
 
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 PixoCash.org, Copyright © 2017-2018 PixoCash Developers, PIXO™.
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2018 PixoCash.org, Copyright © 2018 PixoCash Developers, PIXO™.
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used!
-* All the people that helped with my coin and all the parents to my coin!
-* Inspiration - Bitcoin, Satoshi Nakamoto, Charlie Lee, and all others!
+* Acknowledgement to anyone who's code was used!
+* All the parents to my coin!
+* Inspiration - Bitcoin, Satoshi Nakamoto, Charlie Lee, and Vitalik Buterin (someone reminded me to put his name down)!
 * My parents, my sister and brother, and my wife!
 
 ## Donations
 
 * BTC ```1MdLg5jSQ94GaEHNxoYxfJdeSDuKdn4g7T```
 * ETH ```0x29942d09e21fd14e7a68feff4d07fa7000342eda```
-* PIXOC ```G46d2gMqGwdhnFs6vG7KNp6UVeJeSG5tzm```
 * LTC ```M8mQPsVZD7KVR3SFLXHGaAqkiA9pdptvsu```
 
