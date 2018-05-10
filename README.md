@@ -1,4 +1,4 @@
-# Pixo Classic (PIXOC)
+# Pixo Cash (PIXOC)
 # STAY OFF THE NETWORK PIXOC IS BEING FORKED
 # DO NOT CONNECT TO THE NETWORK
 www.pixoclassic.org
