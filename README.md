@@ -32,12 +32,12 @@ sudo apt-get install build-essential libminiupnpc-dev
 
 ### Installing
 ```
-git clone https://github.com/PixoClassic/Pixo-Classic.git
+git clone https://github.com/Pixocoin/Pixo-Cash.git
 ```
 ## Deployment
 
 ```
-cd PixoClassic
+cd Pixo-Cash
 cd src
 make -f makefile.unix USE_UPNP=-
 ./PixoClassicd
