@@ -40,9 +40,9 @@ git clone https://github.com/Pixocoin/Pixo-Cash.git
 cd Pixo-Cash
 cd src
 make -f makefile.unix USE_UPNP=-
-./PixoClassicd
+./PixoCashd
 cd ..
-qmake PixoClassic-qt.pro
+qmake PixoCash-qt.pro
 make
 ```
 
