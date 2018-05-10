@@ -1,9 +1,9 @@
 # Pixo Cash (PIXOC)
 # STAY OFF THE NETWORK PIXOC IS BEING FORKED
 # DO NOT CONNECT TO THE NETWORK
-www.pixoclassic.org
+www.pixocash.org
 
-Pixo™ Classic is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
+Pixo™ Cash is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 - 81,000,000 supply
 - Currency = PIXOC
 - Block Reward: 3.00
@@ -12,7 +12,7 @@ Pixo™ Classic is a decentralized anonymous digital asset built on cryptography
 
 ## Development
 ### Build 0.0.0-beta03
-Pixo Classic is currently under development.  This version of the software will help with a majority attack (51% attack)!
+Pixo Cash is currently under development.  This version of the software will help with a majority attack (51% attack)!
 
 ## Getting Started 
 
@@ -48,7 +48,7 @@ make
 
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 PixoClassic.org, Copyright © 2017-2018 PixoClassic Developers, PIXO™.
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2018 PixoCash.org, Copyright © 2017-2018 PixoCash Developers, PIXO™.
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used!
