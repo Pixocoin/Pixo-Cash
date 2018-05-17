@@ -43,7 +43,7 @@ cd src
 make -f makefile.unix USE_UPNP=-
 ./PixoCashd
 cd ..
-qmake PixoCash-qt.pro
+qmake pixocash-qt.pro
 make
 ```
 
