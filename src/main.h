@@ -30,7 +30,8 @@ class CNode;
 // changes of the network hashrate.
 // Thanks: https://bitcointalk.org/index.php?topic=182430.msg1904506#msg1904506
 // activated: after block 15000 for all following diff retargeting events
-#define COINFIX1_BLOCK  (15000)
+// activated: after block 1000 for all following diff retargeting events due to the issues I had
+#define COINFIX1_BLOCK  (1000)
 
 // for now, we leave the block size at 1 MB, meaning we support roughly 2400 transactions
 // per block, which means about 160 tps
