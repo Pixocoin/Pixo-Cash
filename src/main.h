@@ -33,8 +33,8 @@ class CNode;
 // activated: after block 1000 for all following diff retargeting events due to the issues I had
 #define COINFIX1_BLOCK  (1000)
 
-// for now, we leave the block size at 1 MB, meaning we support roughly 2400 transactions
-// per block, which means about 160 tps
+// for now, we leave the block size at 2 MB, meaning we support roughly 4800 transactions
+// per block, which means about 320 tps
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
