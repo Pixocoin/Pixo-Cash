@@ -862,7 +862,7 @@ static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Thanks: Balthazar for suggesting the following fix
 // https://bitcointalk.org/index.php?topic=182430.msg1904506#msg1904506
-static const int64 nReTargetHistoryFact = 1; // look at 3 times the retarget
+static const int64 nReTargetHistoryFact = 5; // look at 5 times the retarget
                                              // interval into the block history
 
 //
