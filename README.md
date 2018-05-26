@@ -43,7 +43,7 @@ cd src
 make -f makefile.unix USE_UPNP=-
 ./PixoCashd
 cd ..
-qmake pixocash-qt.pro
+qmake "USE_UPNP=1" "USE_QRCODE=1" "USE_IPV6=1" pixocash-qt.pro
 make
 ```
 
