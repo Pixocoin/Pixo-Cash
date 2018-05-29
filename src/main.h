@@ -31,7 +31,7 @@ class CNode;
 // Thanks: https://bitcointalk.org/index.php?topic=182430.msg1904506#msg1904506
 
 // activated: after block 1000 for all following diff retargeting events due to the issues I had
-#define COINFIX1_BLOCK  (1000)
+#define COINFIX1_BLOCK  (20)
 
 // for now, we leave the block size at 2 MB, meaning we support roughly 4800 transactions
 // per block, which means about 320 tps
