@@ -792,13 +792,6 @@ bool GetTransaction(const uint256 &hash, CTransaction &tx, uint256 &hashBlock)
     return false;
 }
 
-
-
-
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////
 //
 // CBlock and CBlockIndex
@@ -833,11 +826,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         // 20% distribution for dev, wallet issues, hack
         nSubsidy = 16200000 * COIN;
     } 
-	else if (nHeight < 500) {
+	else if (nHeight < 120) {
         // dev confirmation/instamine prevention
         nSubsidy = 0 * COIN;
     }
-        else if(nHeight > 500){
+        else if(nHeight > 120){
 	// 3 coin blocks
         nSubsidy = 3 * COIN;
      }
@@ -862,7 +855,7 @@ static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Thanks: Balthazar for suggesting the following fix
 // https://bitcointalk.org/index.php?topic=182430.msg1904506#msg1904506
-static const int64 nReTargetHistoryFact = 1; // look at 1 times the retarget
+static const int64 nReTargetHistoryFact = 4; // look at 4 times the retarget
                                              // interval into the block history
 
 //
@@ -944,10 +937,10 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     else
         nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
     printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
-    if (nActualTimespan < nTargetTimespan/4)
-        nActualTimespan = nTargetTimespan/4;
-    if (nActualTimespan > nTargetTimespan*4)
-        nActualTimespan = nTargetTimespan*4;
+    if (nActualTimespan < nTargetTimespan/nReTargetHistoryFact)
+        nActualTimespan = nTargetTimespan/nReTargetHistoryFact;
+    if (nActualTimespan > nTargetTimespan*nReTargetHistoryFact)
+        nActualTimespan = nTargetTimespan*nReTargetHistoryFact;
 
     // Retarget
     CBigNum bnNew;
