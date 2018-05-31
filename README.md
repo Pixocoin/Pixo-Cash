@@ -11,7 +11,7 @@ Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography
 
 ## Development
 ### Build 3.0.0
-Pixo Cash is currently under development.  This version of the software will help with a majority attack (51% attack)!
+This is the first release after the 51% attack.  This version of the software will help with a majority attack (51% attack)!
 
 ## Getting Started 
 
