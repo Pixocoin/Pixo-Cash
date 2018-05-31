@@ -8,6 +8,7 @@ Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography
 - Block Reward: 3.00
 - Block Time: 360 seconds
 - Scrypt Algorithm
+- 1 Block Retarget
 
 ## Development
 ### Build 4.0.0
