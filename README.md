@@ -12,7 +12,7 @@ Pixo™ Cash is a decentralized anonymous digital asset built on cryptography wi
 - Scrypt Algorithm
 
 ## Development
-### Build 2.1.1
+### Build 3.0.0
 Pixo Cash is currently under development.  This version of the software will help with a majority attack (51% attack)!
 
 ## Getting Started 
