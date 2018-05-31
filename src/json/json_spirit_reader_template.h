@@ -16,12 +16,12 @@
 #include <boost/version.hpp>
 
 #if BOOST_VERSION >= 103800
-    #include <boost/spirit/include/classic_core.hpp>
-    #include <boost/spirit/include/classic_confix.hpp>
-    #include <boost/spirit/include/classic_escape_char.hpp>
-    #include <boost/spirit/include/classic_multi_pass.hpp>
-    #include <boost/spirit/include/classic_position_iterator.hpp>
-    #define spirit_namespace boost::spirit::classic
+    #include <boost/spirit/include/Cash_core.hpp>
+    #include <boost/spirit/include/Cash_confix.hpp>
+    #include <boost/spirit/include/Cash_escape_char.hpp>
+    #include <boost/spirit/include/Cash_multi_pass.hpp>
+    #include <boost/spirit/include/Cash_position_iterator.hpp>
+    #define spirit_namespace boost::spirit::Cash
 #else
     #include <boost/spirit/core.hpp>
     #include <boost/spirit/utility/confix.hpp>
