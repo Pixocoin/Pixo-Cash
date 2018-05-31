@@ -4,7 +4,7 @@
 # IF YOU MINE THE TESTNET PIXOC'S THE COINS WILL NOT WORK ON THE MAINNET VERSION OF THE SOFTWARE
 www.pixocash.org
 
-Pixo™ Cash is a decentralized anonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
+Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 - 81,000,000 supply
 - Currency = PIXOC
 - Block Reward: 3.00
