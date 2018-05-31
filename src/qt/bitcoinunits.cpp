@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("PixoClassic");
-    case mBTC: return QString("milliPixoClassic (1 / 1,000)");
-    case uBTC: return QString("microPixoClassic (1 / 1,000,000)");
+    case BTC: return QString("PixoCash");
+    case mBTC: return QString("milliPixoCash (1 / 1,000)");
+    case uBTC: return QString("microPixoCash (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of PixoClassic is called a "XOC."
+//a single unit (.00000001) of PixoCash is called a "XOC."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)

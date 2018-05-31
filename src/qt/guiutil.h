@@ -15,7 +15,7 @@ class QAbstractItemView;
 QT_END_NAMESPACE
 class SendCoinsRecipient;
 
-/** Utility functions used by the PixoClassic-qt UI.
+/** Utility functions used by the PixoCash-qt UI.
  */
 namespace GUIUtil
 {
@@ -30,7 +30,7 @@ namespace GUIUtil
     void setupAddressWidget(QLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "PixoClassic:" URI into recipient object, return true on succesful parsing
+    // Parse "PixoCash:" URI into recipient object, return true on succesful parsing
     // See Bitcoin URI definition discussion here: https://bitcointalk.org/index.php?topic=33490.0
     bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);

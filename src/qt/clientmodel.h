@@ -13,7 +13,7 @@ class QDateTime;
 class QTimer;
 QT_END_NAMESPACE
 
-/** Model for PixoClassic network client. */
+/** Model for PixoCash network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT
