@@ -60,4 +60,5 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 * BTC ```1MdLg5jSQ94GaEHNxoYxfJdeSDuKdn4g7T```
 * ETH ```0x29942d09e21fd14e7a68feff4d07fa7000342eda```
 * LTC ```M8mQPsVZD7KVR3SFLXHGaAqkiA9pdptvsu```
+* BCH ```qpfv8gfu0jdnf49w5x2ezdu2jh07vuzxnu4433uz0j```
 
