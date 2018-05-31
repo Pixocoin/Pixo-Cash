@@ -12,7 +12,7 @@
 const std::string CLIENT_NAME("PIXOC");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-beta04"
+#define CLIENT_VERSION_SUFFIX   "-"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
