@@ -50,7 +50,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "PixoClassic Signed Message:\n";
+const string strMessageMagic = "PixoCash Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -849,8 +849,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 0.00416666666666666666666666666667 * 24 * 60 * 60; // PixoClassic: 360 sec;
-static const int64 nTargetSpacing = 6 * 60; // PixoClassic: 6 minute blocks
+static const int64 nTargetTimespan = 0.00416666666666666666666666666667 * 24 * 60 * 60; // PixoCash: 360 sec;
+static const int64 nTargetSpacing = 6 * 60; // PixoCash: 6 minute blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Thanks: Balthazar for suggesting the following fix
@@ -1186,7 +1186,7 @@ bool CTransaction::ConnectInputs(MapPrevTx inputs,
 {
     // Take over previous transactions' spent pointers
     // fBlock is true when this is called from AcceptBlock when a new best-block is added to the blockchain
-    // fMiner is true when called from the internal PixoClassic miner
+    // fMiner is true when called from the internal PixoCash miner
     // ... both are false when called from CTransaction::AcceptToMemoryPool
     if (!IsCoinBase())
     {
@@ -1933,7 +1933,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "PixoClassic", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "PixoCash", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -3266,7 +3266,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// PixoClassicMiner
+// PixoCashMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -3608,7 +3608,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("PixoClassicMiner:\n");
+    printf("PixoCashMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -3617,7 +3617,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("PixoClassicMiner : generated block is stale");
+            return error("PixoCashMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -3630,7 +3630,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
         // Process this block the same as if we had received it from another node
         if (!ProcessBlock(NULL, pblock))
-            return error("PixClassicMiner : ProcessBlock, block not accepted");
+            return error("PixCashMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -3648,7 +3648,7 @@ void static BitcoinMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("PixoClassic-miner");
+    RenameThread("PixoCash-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -3679,7 +3679,7 @@ void static BitcoinMiner(CWallet *pwallet)
             return;
         IncrementExtraNonce(pblock.get(), pindexPrev, nExtraNonce);
 
-        printf("Running PixoClassicMiner with %d transactions in block\n", pblock->vtx.size());
+        printf("Running PixoCashMiner with %d transactions in block\n", pblock->vtx.size());
 
 
         //
@@ -3797,15 +3797,15 @@ void static ThreadBitcoinMiner(void* parg)
     }
     catch (std::exception& e) {
         vnThreadsRunning[THREAD_MINER]--;
-        PrintException(&e, "ThreadPixoClassicMiner()");
+        PrintException(&e, "ThreadPixoCashMiner()");
     } catch (...) {
         vnThreadsRunning[THREAD_MINER]--;
-        PrintException(NULL, "ThreadPixoClassicMiner()");
+        PrintException(NULL, "ThreadPixoCashMiner()");
     }
     nHPSTimerStart = 0;
     if (vnThreadsRunning[THREAD_MINER] == 0)
         dHashesPerSec = 0;
-    printf("ThreadPixoClassicMiner exiting, %d threads remaining\n", vnThreadsRunning[THREAD_MINER]);
+    printf("ThreadPixoCashMiner exiting, %d threads remaining\n", vnThreadsRunning[THREAD_MINER]);
 }
 
 

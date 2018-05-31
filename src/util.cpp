@@ -936,7 +936,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "PixoClassic";
+    const char* pszModule = "PixoCash";
 #endif
     if (pex)
         return strprintf(
@@ -972,13 +972,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PixoClassic
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PixoClassic
-    // Mac: ~/Library/Application Support/PixoClassic
-    // Unix: ~/.PixoClassic
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PixoCash
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PixoCash
+    // Mac: ~/Library/Application Support/PixoCash
+    // Unix: ~/.PixoCash
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PixoClassic";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "PixoCash";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -990,10 +990,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "PixoClassic";
+    return pathRet / "PixoCash";
 #else
     // Unix
-    return pathRet / ".PixoClassic";
+    return pathRet / ".PixoCash";
 #endif
 #endif
 }
@@ -1035,7 +1035,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "PixoClassic.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "PixoCash.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1045,14 +1045,14 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No PixoClassic.conf file is OK
+        return; // No PixoCash.conf file is OK
 
     set<string> setOptions;
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override PixoClassic.conf
+        // Don't overwrite existing settings so command line settings override PixoCash.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1066,7 +1066,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "PixoClassic.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "PixoCash.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1206,10 +1206,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong PixoClassic will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong PixoCash will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("PixoClassic"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("PixoCash"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }
