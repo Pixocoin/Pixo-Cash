@@ -25,9 +25,9 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of // Checkpoint 0 hash == Genesis block hash.
         (         0, uint256("0xc0e3904169011c8e4557ff3af19b1337a4fd576b7936a5bc037f9133f6dc055f"))
-       // (         1, uint256("0x99f8047664d4ec254033582a570e9bdf9077a81b6b13807aff92aa9617f548b1"))
-       // (         2, uint256("0x632f0c7bc6b810d01142ef61b2a5342a43f1bf5aa046202c85f2e1920838dcd8"))
-       // (         3, uint256("0x108c6e5848c28a1d6b7eb11b61b2972c7cbb3246412e51ada4de4dabf6f57b85"))
+        (         1, uint256("0X260a96b25a79f09eec27faadbdc37bd971b1677cd5c5e0630667c94be49038d4"))
+        (       100, uint256("0xd38637f07bb9fe3ec58f655f862d4ddee8e284f7dd4975cce9cdb7216dfb729e"))
+        (       117, uint256("0x921e449ed0f4040cc77be79799fa1e169ae23285adebf2fc7b8c32e6025309e8"))
        // (         4, uint256("0x4874a8c31eb017cf60df2d38acfbe57ed58863b284bc52854056214da6af4667"))
         //(         5, uint256("0x981ee4705232b56276ab51e972966914d402bc0ee4db0cb8535f15434e1541b0"))
        // (         6, uint256("0xd327553bdad96946715b9728f06afa4181ee15e5e6b06880fa4d2f50fe6f1904"))
