@@ -17,7 +17,7 @@ Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography
 * Port = 55665
 
 ## Development
-### Build 3.0.0 ### Wallet Build 3.0.0
+### Build 3.0.0 Wallet Build 3.1.0
 This is the first release after the 51% attack.  This version of the software will help with a majority attack (51% attack)!
 
 ## Getting Started 
