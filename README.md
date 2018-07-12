@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="http://tinyimg.io/i/uojqJGo.png" />
+	<img src="http://tinyimg.io/i/uojqJGo.png"/>
 </p>
 <p align="center">
 	<h1>Pixo™ Cash (PIXOC)</h1>
