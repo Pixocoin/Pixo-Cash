@@ -1,3 +1,8 @@
+<p align="center">
+	<img src="http://tinyimg.io/i/uojqJGo.png" />
+</p>
+<p align="center">
+
 # Pixo™ Cash (PIXOC)
 www.pixocash.org
 
