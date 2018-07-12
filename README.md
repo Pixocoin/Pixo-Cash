@@ -2,6 +2,8 @@
 	<img src="http://tinyimg.io/i/uojqJGo.png" />
 </p>
 <p align="center">
+	<h1>Pixo™ Cash (PIXOC)</h1>
+</p>
 
 # Pixo™ Cash (PIXOC)
 www.pixocash.org
