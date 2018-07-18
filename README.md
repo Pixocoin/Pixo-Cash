@@ -8,6 +8,7 @@
 
 Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
+# Specifications
 * Coin Name = Pixo™ Cash
 * Ticker = PIXOC
 * ICO = N/A
