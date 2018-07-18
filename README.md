@@ -8,14 +8,18 @@ www.pixocash.org
 Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
 * Coin Name = Pixo™ Cash
+* Ticker = PIXOC
+* ICO = N/A
 * Algorithm = Scrypt
 * Type = PoW
 * Block Reward = 3.00
+* Re-Target = 1 block
 * Total Supply = 81,000,000
 * Block Time = 360 sec
 * Coin Maturity = 120 blocks
 * Transaction Confirmations = 6 blocks
-* Ticker = PIXOC
+* Block Size = 2 MB
+* Decimals = 8
 * Address letter = P
 * RPC Port = 55664
 * Port = 55665
