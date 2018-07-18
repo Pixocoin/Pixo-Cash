@@ -5,6 +5,7 @@
 # Pixo™ Cash (PIXOC)
 * __Website:__ www.pixocash.org
 * __Twitter:__ [https://twitter.com/pixocoin](https://twitter.com/pixocoin)
+* __Discord:__ [https://discord.gg/33MZM3y](https://discord.gg/33MZM3y)
 
 Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
