@@ -7,7 +7,7 @@
 * __Twitter:__ [https://twitter.com/pixocoin](https://twitter.com/pixocoin)
 * __Discord:__ [https://discord.gg/33MZM3y](https://discord.gg/33MZM3y)
 * __Telegram:__ [https://t.me/PixoCash](https://t.me/PixoCash)
-* __Slack:__ [https://join.slack.com/t/pixocoin/shared_invite/enQtMzk0OTcwNDA0NzEwLTEzYmM2Mjc0YTAwNjlhYmUxMzJlMmQzM2JiM2RlY2YyZjkxOGM2Y2NmMGY1MWUxNTM2ZjdhNGJiZWJjOTJlZWQ](https://join.slack.com/t/pixocoin/shared_invite/enQtMzk0OTcwNDA0NzEwLTEzYmM2Mjc0YTAwNjlhYmUxMzJlMmQzM2JiM2RlY2YyZjkxOGM2Y2NmMGY1MWUxNTM2ZjdhNGJiZWJjOTJlZWQ)
+* __Slack:__ [https://join.slack.com/t/pixocoin/shared_invite/enQtMzk0OTcwNDA0NzEwLTEzYmM2Mjc0YTAwNjlhYmUxMzJlMmQzM2JiM2RlY2YyZjkxOGM2Y2NmMGY1MWUxNTM2ZjdhNGJiZWJjOTJlZWQ](Invite link for Pixo)
 
 Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
