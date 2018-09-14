@@ -58,6 +58,11 @@ git clone https://github.com/Pixocoin/Pixo-Cash.git
 cd Pixo-Cash
 cd src
 make -f makefile.unix USE_UPNP=-
+
+or
+
+make -f makefile.unix USE_UPNP=1 USE_QRCODE=1 USE_IPV6=1
+
 ./PixoCashd
 cd ..
 qmake "USE_UPNP=1" "USE_QRCODE=1" "USE_IPV6=1" pixocash-qt.pro
