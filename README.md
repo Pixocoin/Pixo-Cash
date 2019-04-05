@@ -2,7 +2,7 @@
 	<img src="http://tinyimg.io/i/uojqJGo.png"/>
 </p>
 
-# Pixo™ Cash (PIXOC)
+# Pixo® Cash (PIXOC)
 * __Website:__ www.pixocash.org
 * __Twitter:__ [https://twitter.com/pixocoin](https://twitter.com/pixocoin)
 * __Discord:__ [https://discord.gg/33MZM3y](https://discord.gg/33MZM3y)
