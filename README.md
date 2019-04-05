@@ -87,3 +87,6 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 * BCH ```qpfv8gfu0jdnf49w5x2ezdu2jh07vuzxnu4433uz0j```
 * PIXOC ```PGmSuuiBAtDGX5Bxqffs1HypCC71FvTd68```
 
+<p align="center">
+	<img src="http://tinyimg.io/i/75c1S9Q.png"/>
+</p>
