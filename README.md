@@ -72,6 +72,10 @@ make
 ## License
 
 This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2018 PixoCash.org, Copyright © 2018 PixoCash Developers, PIXO™.
+<p align="center">
+	<img src="http://tinyimg.io/i/75c1S9Q.png"/>
+</p>
+
 ## Acknowledgments
 
 * Acknowledgement to anyone who's code was used!
@@ -86,7 +90,3 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 * LTC ```M8mQPsVZD7KVR3SFLXHGaAqkiA9pdptvsu```
 * BCH ```qpfv8gfu0jdnf49w5x2ezdu2jh07vuzxnu4433uz0j```
 * PIXOC ```PGmSuuiBAtDGX5Bxqffs1HypCC71FvTd68```
-
-<p align="center">
-	<img src="http://tinyimg.io/i/75c1S9Q.png"/>
-</p>
