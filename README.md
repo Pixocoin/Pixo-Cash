@@ -8,10 +8,10 @@
 * __Discord:__ [https://discord.gg/33MZM3y](https://discord.gg/33MZM3y)
 * __Telegram:__ [https://t.me/PixoCash](https://t.me/PixoCash)
 
-Pixo™ Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
+Pixo® Cash is a decentralized pseudonymous digital asset built on cryptography with peer-to-peer networking powered by Blockchain technology.  A derivative of bitcoin/litecoin.  Scrypt hashing algorithms.
 
 ## Specifications
-* Coin Name = Pixo™ Cash
+* Coin Name = Pixo® Cash
 * Ticker = PIXOC
 * ICO = N/A
 * Algorithm = Scrypt
@@ -71,7 +71,7 @@ make
 
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2018 PixoCash.org, Copyright © 2018 PixoCash Developers, PIXO™.
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2018-2019 PixoCash.org, Copyright © 2018-2019 PixoCash Developers, PIXO®.
 <p align="center">
 	<img src="http://tinyimg.io/i/75c1S9Q.png"/>
 </p>
