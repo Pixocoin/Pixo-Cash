@@ -81,8 +81,7 @@ This project is licensed under the MIT License http://opensource.org/licenses/MI
 
 * Acknowledgement to anyone who's code was used!
 * All the parents to my coin!
-* Inspiration - Bitcoin, Litecoin, Dorian Nakamoto, Charlie Lee, Vitalik Buterin (someone reminded me to put his name down), and my beautiful dog BeBe!
-* My parents, my sister and brother, and my wife!
+* Inspiration - Litecoin, Charlie Lee, Vitalik Buterin (someone reminded me to put his name down), and my beautiful dog BeBe and our new dog Louie!
 
 ## Donations
 
