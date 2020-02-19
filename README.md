@@ -82,6 +82,17 @@ sudo make install
 
 sudo apt-get install libssl1.0-dev
 
+If you get an error:
+
+makefile.unix:138: recipe for target 'obj/net.o' failed
+make: *** [obj/net.o] Error 1
+
+got to net.cpp file and change:
+
+array<int, THREAD_MAX> vnThreadsRunning;
+to
+boost::array<int, THREAD_MAX> vnThreadsRunning;
+
 ```
 ## License
 
