@@ -68,7 +68,19 @@ cd ..
 qmake "USE_UPNP=1" "USE_QRCODE=1" "USE_IPV6=1" pixocash-qt.pro
 make
 ```
+## Deployment on Ubuntu 18.04
 
+```
+Before deployment run:
+wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz
+tar -xvzf openssl-1.0.2a.tar.gz
+cd openssl-1.0.2a
+./config --prefix=/usr/
+make
+sudo make install
+sudo apt-get install libssl1.0-dev
+
+```
 ## License
 
 This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2019 PixoCash.org, Copyright © 2017-2019 PixoCash Developers, PIXO®.
