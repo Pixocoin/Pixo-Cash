@@ -286,9 +286,19 @@ namespace Checkpoints
         (     63000, uint256("0x3d010e58b03f2c5c9839e8edf0670ab063d76596a1feecdf6efc638eefe2ed39"))
         (     63100, uint256("0x6f7c58c5d1704e87f9ea296d11452490a75c9ab75b05955a6f5eeae9632ab9b2"))
         (     63200, uint256("0x6d6691e8adf7a8dd6abeab7955c0333825b77ec0156c63de93ed83889a3b0d5a"))
-        
-        
-        
+        (     64000, uint256("0x0492f4a7b6419d2c8f277af1c4883f97f5b86ad3ac9c94e5513a0f39190d172b"))
+        (     70000, uint256("0xdc6a7a0c28299397717ee49874956b22646a7fa10c2682a38205cc54f25dc35e"))
+        (     80000, uint256("0x2458aa90fd7839b614381016178ac5d299e81db5e375e4bfa472460e2c1abe6e"))
+        (     90000, uint256("0x990853186a414da2aeeb24fd24fa17c6baa14e20c9a2e7aefd00623ee0b7f890"))
+        (     100000, uint256("0xdb7b2bca8842525aaf0f915d682c0fb448ccedb62e2100ca284bacb81b57de40"))
+        (     110000, uint256("0xc5f0c26baeb56b6eb504cc26f51b33750dae82199d9571076bffa2d2c49acccc"))
+        (     120000, uint256("0x17db5705f6a9ed0da4d3aef8c8fd7589dcaffaadd36dc9157023022e319ea842"))
+        (     130000, uint256("0xfb645c215c140e8584fc1b745f4d3b1e4e820940f0ce35ac6db5b9a5e237c918"))
+        (     140000, uint256("0x0597e612d0e125b25d2c494c3a59e2c5a6b31d1e25d31975c126703482171682"))
+        (     150000, uint256("0x252d56c5180a0adcb56297b8181adcdcea593d4bc0938beca984b3f98ce368cb"))
+        (     160000, uint256("0x2684c6bcc6a6b8be6851e07dee663b3ad9b4028160c3f1f859b0ad7fa75a28b2"))
+        (     170000, uint256("0xd224e7e9559b52b4be67720467f231086316fff0f8a7edda3ac177816b2526a6"))
+        (     180000, uint256("0xb2b25874e1e41635bc1d492230264c6de5b6c9d812fecdbdf4a47cb32c0d39f5"))
         ;
 
     bool CheckBlock(int nHeight, const uint256& hash)
