@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://firebasestorage.googleapis.com/v0/b/tinyimageio.appspot.com/o/00c6fb54-9f28-4218-a7ac-7d769328bc14-logo-400x400.png?alt=media&token=2a408165-9dc0-4502-a70c-881696f1c83d"/>
+	<img width="200" height="200" alt="logo-400x400" src="https://github.com/user-attachments/assets/f912e476-a0d0-430b-9655-12ad5e378c9c" />
 </p>
 
 # Pixo® Cash (PIXOC)
