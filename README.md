@@ -96,7 +96,7 @@ boost::array<int, THREAD_MAX> vnThreadsRunning;
 ```
 ## License
 
-This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-2020 PixoCash.org, Copyright © 2017-2020 PixoCash Developers, PIXO®.
+This project is licensed under the MIT License http://opensource.org/licenses/MIT.  Copyright (c) 2009-2012 Bitcoin Core Developers, Copyright © 2011-2012 Litecoin Developers, Copyright © 2017-Present PixoCash.org, Copyright © 2017-Present PixoCash Developers, PIXO®.
 <p align="center">
 
 </p>
